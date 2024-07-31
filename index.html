@@ -13,25 +13,24 @@
 
     <div class="main">
         <div class="logo"></div>
-        <div class="title">Login</div>
-        <form>
+        <div class="title">Login</div>  
             <div class="credentials">
                 <div class="username">
-                    <spam class="glyphicon glyphicon-user"></spam>
-                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="email" placeholder="Username" id="lemail" required>
                 </div>
                 <div class="password">
-                    <spam class="glyphicon glyphicon-lock"> </spam>
-                    <input type="password" name="password" placeholder="password" required>
+                    <input type="password" placeholder="password" id="lpass" required>
                 </div>
             </div>
 
-            <button class="submit">Submit</button>
-        </form>
+            <button class="submit" onclick="Login()">Login</button>
         <div class="link">
-            <a href="#">Forget Password?</a> <a href="#">Sign up</a>
+            <a href="#">Forget Password?</a> <a href="#" onclick="sign()">Sign up</a>
         </div>
     </div>
-</body>
 
+
+
+    <script src="app.js"></script>
+</body>
 </html>

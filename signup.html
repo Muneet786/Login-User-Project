@@ -17,18 +17,20 @@
         <form>
             <div class="credentials">
                 <div class="username">
-                    <spam class="glyphicon glyphicon-user"></spam>
-                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="email" placeholder="Username" id="semail" required>
                 </div>
                 <div class="password">
-                    <spam class="glyphicon glyphicon-lock"></spam>
-                    <input type="password" name="password" placeholder="password" required>
+                    <input type="password" placeholder="password" id="spass" required>
                 </div>
             </div>
 
-            <button class="submit">Submit</button>
+            <button class="submit" onclick="signup()">Sign Up</button>
         </form>
     </div>
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
